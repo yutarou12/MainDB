@@ -12,3 +12,6 @@ services:
       - ./init:/docker-entrypoint-initdb.d
     networks:
       - network_db
+
+networks:
+  network_db:
